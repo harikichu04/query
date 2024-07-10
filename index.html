@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        }
+        body::before{
+        content:"";
+        width:100%;
+        height:100%;
+        background-attachment: fixed;
+        top: 0;
+        position: fixed;
+        background-image:url(https://png.pngtree.com/background/20230625/original/pngtree-faq-and-qa-concept-speech-bubble-with-question-marks-icon-in-picture-image_4039026.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        filter: blur(5px);
+        z-index: -1;
+    } 
+        #first{
+            margin: 80px 200px;
+            background-color:rgba(44, 31, 15, 0.66);
+            color: white;
+            box-shadow: 20px 20px 60px ;
+            border: 1px;
+            border-radius: 30px;
+        }
+        div{
+            font-size: 20px;
+            margin-left: 10px;
+            margin-right: 20px;
+            padding:10px 5px 0px 10px;
+            border-bottom: 1px solid black;
+            transition: 0.5s;
+        }
+        h1{
+            padding: 30px 20px 20px 20px;
+        }
+        p{
+            font-weight: bolder;
+        }
+        div:hover{
+            box-shadow: 20px 20px 60px;
+            background-color:rgba(172, 107, 29, 0.592) ;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="first" >
+        <h1>Frequently Asked Questions</h1><br>
+    <div><p>Why is moon sometimes out during the day?</p></div>
+    <div><p>Why is sky blue?</p></div>
+    <div><p>Will we ever discover aliens?</p></div>
+    <div><p>How much does the Earth weights?</p></div>
+    <div><p>How do Airplane stay up?</p></div>
+    </div>
+    
+</body>
+</html>
